@@ -1,0 +1,28 @@
+html, body {
+    height: 100vh;
+    display: grid;
+    color: white;
+}
+
+
+body {
+    margin: 0;
+    place-items: center;
+}
+
+.container {
+    background-color: rgba(50, 80, 80, .7);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    padding: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: seagreen;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
