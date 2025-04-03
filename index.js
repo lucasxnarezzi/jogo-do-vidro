@@ -1,4 +1,5 @@
 rodada = 1
+console.log(ganhou = false)
 while (rodada <= 5) {
     console.log("Rodada: " + rodada)
 
@@ -7,7 +8,7 @@ while (rodada <= 5) {
         alert("Escolha inválida! Tente novamente.")
         continue
     }
-    pisoQuebrado = Math.floor(Math.random() * 3) + 1
+    pisoQuebrado = Math.floor(Math.random() * 2) + 1
 
     if (escolhaJogador == pisoQuebrado) {
         alert("Você caiu no piso quebrado, você perdeu!")
@@ -19,6 +20,7 @@ while (rodada <= 5) {
     rodada = rodada + 1
 
     if (rodada == 6) {
+        console.log(ganhou = true)
         alert("Parabéns, você venceu o jogo!")
     }
 }  
