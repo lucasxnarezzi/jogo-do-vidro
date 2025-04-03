@@ -8,7 +8,7 @@ while (rodada <= 5) {
         alert("Escolha inválida! Tente novamente.")
         continue
     }
-    pisoQuebrado = Math.floor(Math.random() * 2) + 1
+    pisoQuebrado = Math.floor(Math.random() * 3) + 1
 
     if (escolhaJogador == pisoQuebrado) {
         alert("Você caiu no piso quebrado, você perdeu!")
